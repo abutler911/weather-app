@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/abutler911/weather-app/issues"
   },
-  "homepage": "https://github.com/abutler911/weather-app#readme"
+  "homepage": "https://github.com/abutler911/weather-app#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongo": "^0.1.0",
+    "mongodb": "^4.8.1"
+  }
 }
