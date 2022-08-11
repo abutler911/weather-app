@@ -17,9 +17,12 @@
   },
   "homepage": "https://github.com/abutler911/weather-app#readme",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1",
     "mongo": "^0.1.0",
-    "mongodb": "^4.8.1"
+    "mongodb": "^4.8.1",
+    "nodemon": "^2.0.19"
   }
 }
