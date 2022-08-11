@@ -5,15 +5,34 @@
   </head>
   <body>
     <header><%- include('./partials/header'); %></header>
-    <div class="container">
+    <div class="container" id="title">
       <div class="row">
         <h1 class="title">The Weather App</h1>
       </div>
     </div>
-    <div class="container">
-      <form action="">
-        <input type="text" />
+    <div class="container form-container">
+      <form action="/" method="POST">
+        <div class="form-group">
+          <label for="firstName"></label>
+          <input
+            type="text"
+            class="form-control"
+            id="cityName"
+            aria-describedby="emailHelp"
+            placeholder="Enter city..."
+            name="city"
+          />
+        </div>
+
+        <button type="submit" class="btn btn-light" type="button">
+          Submit
+        </button>
       </form>
+    </div>
+    <div class="container data-container">
+      <ul class="weather-data">
+        <h2>Container</h2>
+      </ul>
     </div>
     <footer><%- include('./partials/footer'); %></footer>
     <%- include('./partials/foot'); %>
